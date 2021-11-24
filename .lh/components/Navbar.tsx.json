@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1637787031195,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1637787554204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,50 +1,17 @@\n import { useState, useEffect, FunctionComponent } from 'react'\r\n import { useRouter } from 'next/router'\r\n import Link from 'next/link'\r\n \r\n-const NavItem: FunctionComponent<{\r\n-   active: string\r\n-   setActive: Function\r\n-   name: string\r\n-   route: string\r\n-}> = ({ active, setActive, name, route }) => {\r\n-   return active !== name ? (\r\n-      <Link href={route}>\r\n-         <a>\r\n-            <span\r\n-               className='mx-2 cursor-pointer hover:border-b-4 hover:text-blue'\r\n-               onClick={() => setActive(name)}>\r\n-               {name}\r\n-            </span>\r\n-         </a>\r\n-      </Link>\r\n-   ) : null\r\n-}\r\n \r\n+\r\n const Navbar = () => {\r\n-   const { pathname } = useRouter()\r\n-\r\n-   const [active, setActive] = useState('')\r\n-\r\n-   //later\r\n-   useEffect(() => {\r\n-      if (pathname === '/') setActive('HI THERE, I AM EMMANUEL MPWANGA')\r\n-     }, [])\r\n-\r\n+   \r\n    return (\r\n       <div className='flex items-center justify-between px-5 py-3 my-3'>\r\n-         <span className='text-xl font-bold border-b-4 md:text-2xl border-green'>\r\n-            {active}\r\n-         </span>\r\n \r\n          <div className='text-base font-Lobster md:text-xl'>\r\n-            <NavItem\r\n-               active={active}\r\n-               setActive={setActive}\r\n-               name='HI THERE, I AM EMMANUEL MPWANGA'\r\n-               route='/'\r\n-            />\r\n+            HI THERE, I AM EMMANUEL MPWANGA\r\n          </div>\r\n       </div>\r\n    )\r\n }\r\n"
                 }
             ],
             "date": 1637787031195,
