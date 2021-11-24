@@ -1,3 +1,5 @@
+import { GetServerSideProps, GetServerSidePropsContext } from "next"
+
 export const index = () => {
   return (
     <div className='flex flex-col px-6 pt-1'>
@@ -32,5 +34,12 @@ export const index = () => {
     
   )
 }
+
+ export const getServerSideProps: GetServerSideProps = async (
+    context: GetServerSidePropsContext
+ ) => {
+    
+    return { props: { endpoint: process.env.VERCEL_URL }}
+ }
 
 export default index

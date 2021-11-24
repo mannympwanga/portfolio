@@ -1,7 +1,7 @@
 export const index = () => {
   return (
     <div className='flex flex-col px-6 pt-1'>
-      <h1 className='my-3 text-4xl font-Lobster'>About Me</h1>
+      <h1 className='my-3 font-Lobster text-4xl'>About Me</h1>
       <p className='my-3 font-medium'>
         I believe I am an enthusiastic person who genuinely wants to develop
         the necessary skills and qualities to have a successful career and future.
@@ -16,7 +16,7 @@ export const index = () => {
       </p>
 
       <div>
-        <h1 className='my-3 text-4xl font-Lobster'>Why Do I Want To Be A Developer At SovTech</h1>
+        <h1 className='my-3 font-Lobster text-4xl'>Why Do I Want To Be A Developer At SovTech</h1>
         <p className='my-3 font-medium'>
           The is three main reasons I want to be a developer at SovTech. Firstly, I feel that SovTech 
           is aligned to future career goals and I will get to learn invaluable skills that will help me in future.

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pages/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1637776165418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1637776432627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import { GetServerSideProps, GetServerSidePropsContext } from \"next\"\n \n-export const index = () => {\n+export const index = ({endpoint}) => {\n+\n+  console.log(endpoint)\n   return (\n     <div className='flex flex-col px-6 pt-1'>\n       <h1 className='my-3 text-4xl font-Lobster'>About Me</h1>\n       <p className='my-3 font-medium'>\n"
+                },
+                {
+                    "date": 1637776459007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,5 @@\n-import { GetServerSideProps, GetServerSidePropsContext } from \"next\"\n-\n-export const index = ({endpoint}) => {\n-\n-  console.log(endpoint)\n+export const index = () => {\n   return (\n     <div className='flex flex-col px-6 pt-1'>\n       <h1 className='my-3 text-4xl font-Lobster'>About Me</h1>\n       <p className='my-3 font-medium'>\n@@ -36,12 +32,5 @@\n     \n   )\n }\n \n- export const getServerSideProps: GetServerSideProps = async (\n-    context: GetServerSidePropsContext\n- ) => {\n-    \n-    return { props: { endpoint: process.env.VERCEL_URL }}\n- }\n-\n export default index\n"
+                }
+            ],
+            "date": 1637776165418,
+            "name": "Commit-0",
+            "content": "import { GetServerSideProps, GetServerSidePropsContext } from \"next\"\n\nexport const index = () => {\n  return (\n    <div className='flex flex-col px-6 pt-1'>\n      <h1 className='my-3 text-4xl font-Lobster'>About Me</h1>\n      <p className='my-3 font-medium'>\n        I believe I am an enthusiastic person who genuinely wants to develop\n        the necessary skills and qualities to have a successful career and future.\n        I am genuinely a positive person; I keep myself active and i want to learn from\n        more experienced people than myself, so I can build the necessary work qualities\n        and traits that are attrative to future hiring managets.\n        I am someone who understadn you have to work hard to achieve what you want in life,\n        and I feel that by undertaking this Graduate Programme with SovTech, it will allow me \n        to build the foundations necessaryfor a successful future career. I graduated from HyperionDev\n        Software Engineer bootcamp with a 97% pass rate. I am person who loves learning new things, I recently\n        tought myself the basics of react and django.\n      </p>\n\n      <div>\n        <h1 className='my-3 text-4xl font-Lobster'>Why Do I Want To Be A Developer At SovTech</h1>\n        <p className='my-3 font-medium'>\n          The is three main reasons I want to be a developer at SovTech. Firstly, I feel that SovTech \n          is aligned to future career goals and I will get to learn invaluable skills that will help me in future.\n          Secondly, it is clear the is a wealth of experince at SovTech and the is strong work values and\n          ethics. I want to use my time wisely during the Graduate Programme and get as much out of it as possible.\n          If I undertake this Graduate Programme, I am confident that will happen. Finally, the main reasons for undertaking\n          this Graduate Programme is i want to develop the necessary work skills and values to excel in my future career.\n          working here will allow me to deverlop those skills and values, for sure.\n        </p>\n      </div>\n    </div>\n\n    \n  )\n}\n\n export const getServerSideProps: GetServerSideProps = async (\n    context: GetServerSidePropsContext\n ) => {\n    \n    return { props: { endpoint: process.env.VERCEL_URL }}\n }\n\nexport default index\n"
+        }
+    ]
+}
