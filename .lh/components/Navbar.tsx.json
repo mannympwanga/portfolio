@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1637787031195,
@@ -36,6 +36,10 @@
                 {
                     "date": 1637788929215,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n    \r\n    return (\r\n       <div className='flex items-center justify-between px-5 py-3 my-3 text-5xl font-Lobster'>\r\n \r\n-         <div className='text-5xl font-Lobster md:text-2xl'>\r\n+         <div className='text-6xl font-Lobster md:text-1xl'>\r\n             HI THERE, I AM EMMANUEL MPWANGA\r\n          </div>\r\n       </div>\r\n    )\r\n"
+                },
+                {
+                    "date": 1637789138654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n    \r\n    return (\r\n       <div className='flex items-center justify-between px-5 py-3 my-3 text-5xl font-Lobster'>\r\n \r\n-         <div className='text-6xl font-Lobster md:text-1xl'>\r\n+         <div className='text-5xl font-Lobster md:text-1xl'>\r\n             HI THERE, I AM EMMANUEL MPWANGA\r\n          </div>\r\n       </div>\r\n    )\r\n"
                 }
             ],
             "date": 1637787031195,
