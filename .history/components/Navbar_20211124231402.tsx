@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Navbar = () => {
    
    return (
-      <div className='flex items-center justify-between px-5 py-3 my-3 text-4xl font-Lobster'>
+      <div className='flex items-center justify-between px-5 py-3 my-3 font-Lobster'>
 
          <div className='text-4xl font-Lobster md:text-xl'>
             HI THERE, I AM EMMANUEL MPWANGA
