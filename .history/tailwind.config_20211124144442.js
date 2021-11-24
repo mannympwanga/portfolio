@@ -1,6 +1,6 @@
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
-  darkMode: "class",
+  purge: ['./pages/**/*.{tsx}', './components/**/*.{tsx}'],
+  darkMode: 'class',
   theme: {
     fontFamily: {
       Lobster: ['Lobster'],
@@ -25,4 +25,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};
+}
