@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1637776165418,
@@ -24,6 +24,10 @@
                 {
                     "date": 1637788481068,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const index = () => {\n   return (\n     <div className='flex flex-col px-6 pt-1'>\n-      <h1 className='my-3 text-4xl font-Lobster'>About Me</h1>\n+      <h1 className='my-3 text-2xl font-Lobster'>About Me</h1>\n       <p className='my-3 font-medium'>\n         I believe I am an enthusiastic person who genuinely wants to develop\n         the necessary skills and qualities to have a successful career and future.\n         I am a keen learner and thrive when faced with new challenges that enable me \n@@ -17,9 +17,9 @@\n         tought myself the basics of react and django.\n       </p>\n \n       <div>\n-        <h1 className='my-3 text-4xl font-Lobster'>Why Do I Want To Be A Developer At SovTech</h1>\n+        <h1 className='my-3 text-2xl font-Lobster'>Why Do I Want To Be A Developer At SovTech</h1>\n         <p className='my-3 font-medium'>\n           The is three main reasons I want to be a developer at SovTech. Firstly, I feel that SovTech \n           is aligned to future career goals and I will get to learn invaluable skills that will help me in future.\n           Secondly, it is clear the is a wealth of experince at SovTech and the is strong work values and\n"
+                },
+                {
+                    "date": 1637788669598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const index = () => {\n   return (\n     <div className='flex flex-col px-6 pt-1'>\n-      <h1 className='my-3 text-2xl font-Lobster'>About Me</h1>\n+      <h1 className='my-3 text-1xl font-Lobster'>About Me</h1>\n       <p className='my-3 font-medium'>\n         I believe I am an enthusiastic person who genuinely wants to develop\n         the necessary skills and qualities to have a successful career and future.\n         I am a keen learner and thrive when faced with new challenges that enable me \n@@ -17,9 +17,9 @@\n         tought myself the basics of react and django.\n       </p>\n \n       <div>\n-        <h1 className='my-3 text-2xl font-Lobster'>Why Do I Want To Be A Developer At SovTech</h1>\n+        <h1 className='my-3 text-1xl font-Lobster'>Why Do I Want To Be A Developer At SovTech</h1>\n         <p className='my-3 font-medium'>\n           The is three main reasons I want to be a developer at SovTech. Firstly, I feel that SovTech \n           is aligned to future career goals and I will get to learn invaluable skills that will help me in future.\n           Secondly, it is clear the is a wealth of experince at SovTech and the is strong work values and\n"
                 }
             ],
             "date": 1637776165418,

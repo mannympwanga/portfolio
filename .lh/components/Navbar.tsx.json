@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1637787031195,
@@ -28,6 +28,10 @@
                 {
                     "date": 1637788451514,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n const Navbar = () => {\r\n    \r\n    return (\r\n-      <div className='flex items-center justify-between px-5 py-3 my-3 font-Lobster'>\r\n+      <div className='flex items-center justify-between px-5 py-3 my-3 text-4xl font-Lobster'>\r\n \r\n          <div className='text-4xl font-Lobster md:text-xl'>\r\n             HI THERE, I AM EMMANUEL MPWANGA\r\n          </div>\r\n"
+                },
+                {
+                    "date": 1637788724174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n \r\n const Navbar = () => {\r\n    \r\n    return (\r\n-      <div className='flex items-center justify-between px-5 py-3 my-3 text-4xl font-Lobster'>\r\n+      <div className='flex items-center justify-between px-5 py-3 my-3 text-5xl font-Lobster'>\r\n \r\n-         <div className='text-4xl font-Lobster md:text-xl'>\r\n+         <div className='text-5xl font-Lobster md:text-2xl'>\r\n             HI THERE, I AM EMMANUEL MPWANGA\r\n          </div>\r\n       </div>\r\n    )\r\n"
                 }
             ],
             "date": 1637787031195,
