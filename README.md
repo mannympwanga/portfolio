@@ -33,4 +33,4 @@ npx tailwindcss init -p
 
 ## Deploy on Vercel
 
-This Applaction was deployed on Vercel the link  will take yo the appliction https://portfolio-emmanuel.vercel.app/
+This Applaction was deployed on Vercel the link will take you to the appliction https://portfolio-emmanuel.vercel.app/
