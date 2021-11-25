@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1637776165418,
@@ -40,6 +40,10 @@
                 {
                     "date": 1637822894629,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n         I am a keen learner and thrive when faced with new challenges that enable me \n         to apply myself in a versatile way. \n         I am genuinely a positive person; I keep myself active and i want to learn from\n         more experienced people than myself, so I can build the necessary work qualities\n-        and traits that are attrative to future hiring managets.\n-        I am someone who understadn you have to work hard to achieve what you want in life,\n+        and traits that are attractive to future hiring managets.\n+        I am someone who understands you have to work hard to achieve what you want in life,\n         and I feel that by undertaking this Graduate Programme with SovTech, it will allow me \n         to build the foundations necessaryfor a successful future career. I graduated from HyperionDev\n         Software Engineer bootcamp with a 97% pass rate. I am person who loves learning new things, I recently\n         tought myself the basics of react and django.\n"
+                },
+                {
+                    "date": 1637826382771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n export const index = () => {\n   return (\n     <div className='flex flex-col px-6 pt-1'>\n+\n+      {/*homepage- About me a parargaph about me*/}\n       <h1 className='my-3 text-3xl font-Lobster'>About Me</h1>\n       <p className='my-3 font-medium'>\n         I believe I am an enthusiastic person who genuinely wants to develop\n         the necessary skills and qualities to have a successful career and future.\n@@ -16,9 +18,12 @@\n         Software Engineer bootcamp with a 97% pass rate. I am person who loves learning new things, I recently\n         tought myself the basics of react and django.\n       </p>\n \n+      \n       <div>\n+\n+        {/*homepage- reason on way I want to be part of SovTech*/}\n         <h1 className='my-3 text-3xl font-Lobster'>Why Do I Want To Be A Developer At SovTech</h1>\n         <p className='my-3 font-medium'>\n           The is three main reasons I want to be a developer at SovTech. Firstly, I feel that SovTech \n           is aligned to future career goals and I will get to learn invaluable skills that will help me in future.\n"
                 }
             ],
             "date": 1637776165418,

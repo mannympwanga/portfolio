@@ -1,0 +1,18 @@
+{
+    "sourceFile": "pages/_document.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1637826551778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1637826551778,
+            "name": "Commit-0",
+            "content": "import Document, { Html, Head, Main, NextScript } from 'next/document'\r\n\r\nclass MyDocument extends Document {\r\n  render() {\r\n    return (\r\n      <Html lang='en'>\r\n\r\n        {/*Link For the google Font lobster that was used*/}\r\n        <Head>\r\n            <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"/>\r\n            <link rel=\"preconnect\" href=\"https://fonts.gstatic.com crossorigin\"/>\r\n            <link href=\"https://fonts.googleapis.com/css2?family=Lobster&display=swap\" rel=\"stylesheet\"/>\r\n        </Head>\r\n\r\n        {/*Background color for the whole page(Changes on dark mode and light mode)*/}\r\n        <body className='bg-gradient-to-r from-red-700 to-blue dark:from-dark-500 dark:to-dark-100 dark:text-yellow-50'>\r\n          <Main />\r\n          <NextScript />\r\n        </body>\r\n      </Html>\r\n    )\r\n  }\r\n}\r\n\r\nexport default MyDocument"
+        }
+    ]
+}

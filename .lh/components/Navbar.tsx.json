@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1637787031195,
@@ -44,6 +44,14 @@
                 {
                     "date": 1637789947843,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n    return (\r\n       <div className='flex items-center justify-between px-5 py-3 my-3 text-5xl font-Lobster'>\r\n \r\n          <div className='text-5xl font-Lobster md:text-1xl'>\r\n-            HI THERE, I AM EMMANUEL MPWANGA\r\n+         Hi there, I am Emmanuel Mpwanga\r\n          </div>\r\n       </div>\r\n    )\r\n }\r\n"
+                },
+                {
+                    "date": 1637825100750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n-import { useState, useEffect, FunctionComponent } from 'react'\r\n-import { useRouter } from 'next/router'\r\n-import Link from 'next/link'\r\n \r\n \r\n \r\n+\r\n const Navbar = () => {\r\n    \r\n    return (\r\n       <div className='flex items-center justify-between px-5 py-3 my-3 text-5xl font-Lobster'>\r\n"
+                },
+                {
+                    "date": 1637825287088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,7 @@\n \r\n-\r\n-\r\n-\r\n const Navbar = () => {\r\n-   \r\n+   {/*Nav bar intoducing myslef*/}\r\n    return (\r\n       <div className='flex items-center justify-between px-5 py-3 my-3 text-5xl font-Lobster'>\r\n \r\n          <div className='text-5xl font-Lobster md:text-1xl'>\r\n"
                 }
             ],
             "date": 1637787031195,

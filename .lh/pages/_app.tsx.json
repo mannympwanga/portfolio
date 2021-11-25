@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1637778636764,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1637826239900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,16 +5,23 @@\n \n function MyApp({ Component, pageProps }) {\n   return (\n     <ThemeProvider attribute='class'>\n+\n+      {/*Create two grids a side bar and a homepage bar*/}\n       <div className='grid grid-cols-12 gap-6 px-5 lg:px-48 my-14 sm:px-20 md:px-32'>\n+\n+        {/*Side bar grid background colours for dark and light mode, grid sizes arcodding to page size*/}\n        <div className='col-span-12 p-4 text-center bg-gradient-to-r from-blue-800 to-red-600 dark:from-dark-500 dark:to-dark-100 lg:col-span-3 rounded-3xl'>\n         <Sidebar/>\n        </div>\n+\n+       {/*homepage grid background colours for dark and light mode, grid sizes arcodding to page siz*/}\n        <div className='flex flex-col col-span-12 bg-gradient-to-r from-blue-800 to-red-600 dark:from-dark-500 dark:to-dark-100 lg:col-span-9 rounded-3xl'>\n         <Navbar/>\n         <Component {...pageProps} />\n        </div>\n+       \n       </div>\n     </ThemeProvider>\n      \n   )\n"
                 }
             ],
             "date": 1637778636764,
